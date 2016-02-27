@@ -33,7 +33,7 @@ for i in range (len(N)):
     N[i]=fib(i+1)
 #print N
 
-#Buscando el termino con numero de > 1000
+#Buscando el termino con numero de divisores ND > 1000
 
 for i in range (100):
 	ND[i]=len(list(divisorGenerator(N[i])))
