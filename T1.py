@@ -5,7 +5,7 @@ cadena='cas' #Inserte texto aqui
 #Funcion Palindrome.
 
 def palindromes(text):
-	#Cambiar el texto a minuscula si es necesario
+    #Cambiar el texto a minuscula si es necesario
     text = text.lower()
     #Inicializando lista con palabras palindromes
     pal = []
@@ -17,10 +17,10 @@ def palindromes(text):
             if word == word[::-1]: #Verificando si es palindrome
                 pal.append(word)   #Agregando a la lista
 
-#Si pal no es nulo retorna la palabra palindrome mas larga
+#Si pal no es nulo retorna la palabra palindrome más larga.
     
     if len(pal)!=0:
-        return max(pal, key=len) #Retorna la palabra mas larga de la lista
+        return max(pal, key=len) #Retorna la palabra más larga de la lista
 
 #Si no, no existe ninguna palabra palindrome en el texto
     	
