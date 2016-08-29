@@ -15,6 +15,6 @@ This repository contains the solutions for two of three questions of the [Foris 
 
 ##Question 2
 
-* Solution: The code to solve this porblem can be found in T2.py. Please run in a terminal python T2.py
+* Solution: The code to solve this problem can be found in T2.py. Please run in a terminal python T2.py
 
 [1]: http://challenge.foris.cl/
