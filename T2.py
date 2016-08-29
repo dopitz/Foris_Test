@@ -1,18 +1,18 @@
-#Programa 2. Retorna el primer numero de Fibonachi que tiene mas de 1000 divisores
+#Programa 2. Retorna el primer numero de Fibonachi que tiene más de 1000 divisores
 #Es un tanto lento, hay que mejorar la funcion divisorGenerator
 
 
 import numpy as np
 import math
 
-#Funcion Fibonacci
+#Función Fibonacci
 
 def fib(n, computed = {0: 0, 1: 1}):
     if n not in computed:
         computed[n] = fib(n-1, computed) + fib(n-2, computed)
     return computed[n]
 
-#Funcion Divisores
+#Función Divisores
 
 def divisorGenerator(n):
     large_divisors = []
@@ -31,7 +31,7 @@ ND=np.zeros(100) #Numero de divisores
 
 for i in range (len(N)):
     N[i]=fib(i+1)
-#print N
+#Print N
 
 #Buscando el termino con numero de divisores ND > 1000
 
